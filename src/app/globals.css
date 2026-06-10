@@ -669,7 +669,7 @@ a {
 
 .lightbox__content {
   position: relative;
-  width: min(90vw, 32rem);
+  width: min(85vw, 16rem);
   animation: lightbox-scale 0.35s var(--ease-spring);
 }
 
