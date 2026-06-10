@@ -669,15 +669,7 @@ a {
 
 .lightbox__content {
   position: relative;
-
-  width: auto;
-  max-width: 90vw;
-  max-height: 90vh;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  width: min(90vw, 32rem);
   animation: lightbox-scale 0.35s var(--ease-spring);
 }
 
