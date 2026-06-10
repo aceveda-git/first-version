@@ -5,7 +5,7 @@ export default function HomePage() {
         <p className="page__eyebrow">Effectus</p>
         <h1 className="page__title">World Cup 2026</h1>
         <p className="page__subtitle">
-          Open your personal link to reveal your sticker pack.
+          Open your personal link to reveal your sticker pack. Add /name-surname to url.
         </p>
       </header>
     </main>
