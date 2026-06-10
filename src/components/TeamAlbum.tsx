@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Image from "next/image";
-import Link from "next/link";
 import { TEAM, type TeamMember } from "@/data/team";
 
 type TeamAlbumProps = {
@@ -46,9 +44,6 @@ export function TeamAlbum({ member }: TeamAlbumProps) {
         ))}
       </div>
 
-      
-        </div>
-      )}
-    </div>
+          </div>
   );
 }
