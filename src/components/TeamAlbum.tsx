@@ -52,12 +52,18 @@ export function TeamAlbum({ member }: TeamAlbumProps) {
             aria-label={`View ${teammate.name} sticker`}
           >
             <Image
-              src={teammate.sticker}
-              alt={teammate.name}
-              width={772}
-              height={1024}
-              style={{ width: "100%", height: "100%", objectFit: "contain" }}
-            />
+  src={sticker}
+  alt=""
+  width={400}
+  height={600}
+  style={{
+    objectFit: "contain",
+    width: "auto",
+    height: "auto",
+    maxWidth: "90vw",
+    maxHeight: "90vh",
+  }}
+/>
             <span className="album__card-label">{teammate.name}</span>
           </button>
         ))}
