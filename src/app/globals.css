@@ -392,7 +392,7 @@ a {
 
 .reveal__layer-img--bottom {
   position: absolute;
-  top: var(--seam-top);
+   top: calc(var(--seam-top) - 40px);
   left: 0;
 }
 
