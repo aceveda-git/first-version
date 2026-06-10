@@ -2,8 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 40;
-  padding: 40;
+  margin: 100;
+  padding: 100;
 }
 
 :root {
@@ -41,7 +41,7 @@ body {
 }
 
 img {
-  display: block;
+  display: flex;
   max-width: 100%;
 }
 
@@ -669,7 +669,15 @@ a {
 
 .lightbox__content {
   position: relative;
-  width: min(85vw, 16rem);
+
+  width: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   animation: lightbox-scale 0.35s var(--ease-spring);
 }
 
@@ -701,7 +709,14 @@ a {
 }
 
 .lightbox__img {
-  width: 100%;
+  width: auto;
+  height: auto;
+
+  max-width: 90vw;
+  max-height: 80vh;
+
+  object-fit: contain;
+
   border-radius: var(--radius);
   filter: drop-shadow(0 16px 48px rgba(0, 0, 0, 0.6));
 }
