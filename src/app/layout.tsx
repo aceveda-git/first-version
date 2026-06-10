@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Effectus World Cup 2026",
-  description: "Open your sticker pack and collect the team album.",
+  description: "Open your sticker pack",
 };
 
 export const viewport: Viewport = {
