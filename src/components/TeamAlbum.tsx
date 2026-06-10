@@ -57,11 +57,9 @@ export function TeamAlbum({ member }: TeamAlbumProps) {
   width={772}
   height={1024}
   style={{
-    objectFit: "contain",
-    maxWidth: "90vw",
-    maxHeight: "90vh",
-    width: "100%",
-    height: "auto",
+  width: "100%",
+  height: "auto",
+}}
   }}
 />
             <span className="album__card-label">{teammate.name}</span>
